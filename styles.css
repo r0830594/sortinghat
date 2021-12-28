@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    background: rgb(37, 37, 37);
+    text-align: center;
+    border: 1px solid grey;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.background-image {
+    background-image: url(https://laregledujeu.org/files/2014/07/harry-potter.jpg);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-text {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(48, 48, 48);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {
+    background-color: rgb(218, 213, 213);
+}
+
+.button:active {
+    background-color: rgb(48, 48, 48);
+    box-shadow: 0 5px #999;
+    transform: translateY(4px);
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+
+.input-group2 {
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+}
+
+.center {
+    text-align: center;
+}
+
+.gender {
+    margin-left: 40px;
+    text-align: initial;
+}
+
+.button2 {
+    background-color: rgb(48, 48, 48);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    color: white;
+    padding: 15px 32px;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: rgb(218, 213, 213);
+}
+
+.button2:active {
+    background-color: rgb(48, 48, 48);
+    box-shadow: 0 5px #999;
+    transform: translateY(4px);
+}
